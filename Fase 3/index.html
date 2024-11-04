@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Liberato</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="center">
+        <header>
+            <img id="image1" src="./img/Pedro Liberato].jpeg" style="display: block;">
+            <img id="image2" src="./img/Pedro Liberato2.jpeg" style="display: none;">
+            <img id="image3" src="./img/Pedro Liberato3.jpeg" style="display: none;">
+        </header> 
+        <button onclick="trocar()">Próxima Imagem</button>
+    </div>
+    <h1>Pedro Liberato Rodrigues</h1>
+    <main>
+    <h2>Sistemas de Informação - 4° Período</h2>
+    <h3>Email e Endereço:</h3>
+        <p> <b>- pedrolibsz@gmail.com |
+            Rua Astolfo Bueno, 384, Céu Azul</b>
+        </p>
+    <h3>UCS - Cursadas</h3>
+        <ul id="itemLista">
+            <li><span class="UC">Programação e soluções computacionais</span><button class="botaoSubir">SubirUC</button><button class="botaoDescer">DescerUC</button></li>
+            <li><span class="UC">Ambientes computacionais e conectividade</span> <button class="botaoSubir">SubirUC</button><button class="botaoDescer">DescerUC</button></li>
+            <li><span class="UC">Modelagem de Software</span> <button class="botaoSubir">SubirUC</button><button class="botaoDescer">DescerUC</button></li>
+            <li><span class="UC">Sistemas computacionais e Segurança</span> <button class="botaoSubir">SubirUC</button><button class="botaoDescer">DescerUC</button></li>
+            <li><span class="UC">Gestão e qualidade de Software</span> <button class="botaoSubir">SubirUC</button><button class="botaoDescer">DescerUC</button></li>
+            <li><span class="UC">Modelos, metódos e técnica da engenharia de Software</span> <button class="botaoSubir">SubirUC</button><button class="botaoDescer">DescerUC</button></li>
+            <li><span class="UC">Projetos e processos de TI (Cursando)</span> <button class="botaoSubir">SubirUC</button><button class="botaoDescer">DescerUC</button></li>
+            <li><span class="UC">Usabilidade, desenvolvimento web, mobile e jogos (Cursando)</span> <button class="botaoSubir">SubirUC</button><button class="botaoDescer">DescerUC</button></li>   
+        </ul>
+        <input type="text" id="campoMateria" placeholder="Digite a matéria">
+        <button onclick="addMateria()">Adicionar Matéria</button>
+    <h3>Sobre Mim</h3>
+    <ul id="listaSobreMim">
+        <li> Eu gosto bastante de passar meu tempo livre em casa jogando e vendo séries no computador.<br>
+        E também gosto bastante de atividades físicas, como por exemplo: ir na academia, jogar basquete, futebol e vôlei. </li>
+    </ul>
+        <input type="text" id="campoSobreMim" placeholder="Digite Sobre Mim">
+        <button onclick="addSobreMim()">Adicionar Sobre Mim</button>
+    <h3>Experiências Profissionais</h3>
+        <p> - Trabalho há 1 ano como analista de suporte para o Banco Mercantil(Atual).<br>
+        E também ja trabalhei como barbeiro na Barberaria Ritz durante 11 meses até optar por ir para a área de tecnologia.</p>
+    <h3>Experiências Acadêmicas</h3>
+        <p> - Estou cursando minha graduação no Centro Universitário UNA em Sistemas de Informação, estou no 4° período.<br>
+        Formei no ensino médio em 2021 na Escola Estadual Maria Andrade Resende.</p>
+    <h4>Redes Sociais</h4>
+    <footer>
+        <a href="https://github.com/Pdkkk" target="_blank">
+            <img src="./img/github.svg"></img>
+            <p>GitHub</p>
+        </a>
+        <a href="https://www.linkedin.com/in/pedro-liberato-501788263/" target="_blank">
+            <img src="./img/linkedin.svg"></img>
+            <p>linkedin</p>
+        </a>
+    </footer>
+    <div>
+        <h3>Entre em contato comigo:</h3>
+        <span class="MensagemDeErroCPF"></span>
+        <br>
+        <span class="MensagemDeErroEmail"></span>
+        <div>
+            <input type="" class="CPF" placeholder="CPF: 000.000.000-00">
+            <input type="" class="Email" placeholder="Email: nome@domínio.com">
+            <button class="botaoForm">Enviar</button>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
